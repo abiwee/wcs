@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warkop Modern</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Warkop Chill Space</h1>
+  </header>
+
+  <!-- Modal HTML -->
+  <div id="welcomeModal" class="modal">
+    <div class="modal-content">
+      <h2>WELCOME BROO!</h2>
+      <p><strong> thank you udah mau mampir, silahkan cobain menu menu andalan Kami</strong></p>
+      <ul>
+        <li><strong>STEP 1: </strong>Gunakan tombol kategori untuk melihat makanan, cemilan, atau minuman yang lu mau.</li>
+        <li><strong>STEP 2:</strong>Pilih menunya langsung bayar di kasir ya bro</li>
+        <li><strong>STEP 3: </strong>jangan lupa follow medsos kita link nya ada di paling bawah!!</li>
+      </ul>
+      <button id="closeModal">SIKAT??</button>
+    </div>
+  </div>
+
+  <div class="categories">
+    <div class="category-container">
+      <button class="category-btn" data-category="all">Semua</button>
+      <button class="category-btn" data-category="makanan">Makanan</button>
+      <button class="category-btn" data-category="cemilan">Cemilan</button>
+      <button class="category-btn" data-category="minuman">Minuman</button>
+    </div>
+  </div>
+
+  <div class="menu-container" id="menuContainer">
+    <div class="menu-item makanan">
+      <img src="assets/Mie Instant Double.jpg" alt="Mie Instant Double Jumbo">
+      <h3>Mie Instant Double / Jumbo</h3>
+      <p>Mie instan ukuran ganda, lebih banyak, lebih puas.</p>
+      <p class="price">Rp 12.000</p>
+  </div>
+  
+  <div class="menu-item makanan">
+      <img src="assets/Mie Instant Premium.jpg" alt="Mie Instant Premium">
+      <h3>Mie Instant Premium</h3>
+      <p>Mie instan dengan kualitas premium dan rasa lebih kaya.</p>
+      <p class="price">Rp 10.000 - 15.000 - 20.000 - 30.000</p>
+  </div>
+
+    <div class="menu-item makanan">
+      <img src="assets/Mie Baso Cuanki Sawargi.jpeg" alt="Mie Baso Cuanki Sawargi">
+      <h3>Mie Baso Cuanki Sawargi</h3>
+      <p>Mie dengan bakso cuanki dan rasa gurih.</p>
+      <p class="price">Rp 15.000</p>
+  </div>
+  
+  <div class="menu-item makanan">
+      <img src="assets/sepagetii2.jpeg" alt="Mie Spaghetti">
+      <h3>Mie Spaghetti</h3>
+      <p>Spaghetti dengan saus spesial ala warkop.</p>
+      <p class="price">Rp 15.000</p>
+  </div>
+  <div class="menu-item makanan">
+      <img src="assets/Mie Bakmi Spesial.jpeg" alt="Mie Bakmi Spesial">
+      <h3>Mie Bakmi Spesial</h3>
+      <p>Mie bakmi spesial dengan pilihan topping sesuai selera.</p>
+      <p class="price">Rp 15.000</p>
+  </div>
+  
+    <div class="menu-item mie">
+      <img src="assets/Mie Basic.jpeg" alt="Mie Basic">
+      <h3>Mie Basic</h3>
+      <p>Mie instan dengan topping standar.</p>
+      <p class="price">Rp 12.000</p>
+  </div>
+  
+  <div class="menu-item makanan">
+      <img src="assets/Mie Instant Single.jpg" alt="Mie Instant Rakyat Jelata">
+      <h3>Mie Instant Rakyat Jelata</h3>
+      <p>Mie instan dengan rasa khas dan bumbu lengkap.</p>
+      <p class="price">Rp 5.000</p>
+  </div>
+  
+  <div class="menu-item makanan">
+      <img src="assets/Mie Instant Rakyat Jelata.jpeg" alt="Mie Instant Single">
+      <h3>Mie Instant Single</h3>
+      <p>Mie instan ukuran single, cocok untuk makan cepat.</p>
+      <p class="price">Rp 7.000</p>
+  </div>
+  <div class="menu-item minuman">
+    <img src="assets/lemon-tea-selasih.jpg" alt="Mie Instant Single">
+    <h3>lemon tea</h3>
+    <p>perpaduan teh dengan lemon yang dijamin bikin seger.</p>
+    <p class="price">Rp 15.000</p>
+  </div>
+  <div class="menu-item minuman">
+    <img src="assets/Green Tea.jpeg" alt="Mie Instant Single">
+    <h3>Green Tea</h3>
+    <p> Teh hijau yang menyehatkan dan bikin tenang.</p>
+    <p class="price">Rp 15.000</p>
+  </div>
+  <div class="menu-item minuman">
+    <img src="assets/minuman.jpeg" alt="Mie Spaghetti">
+    <h3>minuman instan</h3>
+    <p>aneka minuman isntan.</p>
+    <p class="price">Rp 6.000-10.000</p>
+  </div>
+  <div class="menu-item minuman">
+    <img src="assets/Lemon Mint Tea.jpeg" alt="Mie Instant Single">
+    <h3>Lemon Mint Tea</h3>
+    <p> Kombinasi teh lemon dan mint yang seger banget.</p>
+    <p class="price">Rp 15.000</p>
+  </div>
+  <div class="menu-item minuman">
+    <img src="assets/Jasmine Tea.jpeg" alt="Mie Instant Single">
+    <h3>Jasmine Tea</h3>
+    <p>Teh melati yang harum, relax banget buat ngopi santai.</p>
+    <p class="price">Rp 15.000</p>
+  </div>
+  <div class="menu-item minuman">
+    <img src="assets/Kopi Hitam2.jpg" alt="Mie Instant Single">
+    <h3>Kopi Hitam</h3>
+    <p>Kopi hitam pekat dengan rasa klasik yang bikin melek.</p>
+    <p class="price">Rp 15.000</p>
+  </div>
+  <div class="menu-item minuman">
+    <img src="assets/Espresso.jpeg" alt="Mie Instant Single">
+    <h3>Espresso</h3>
+    <p>Single shot espresso, pas buat pecinta rasa bold.</p>
+    <p class="price">Rp 15.000</p>
+  </div>
+  <div class="menu-item minuman">
+    <img src="assets/Cappuccino.jpeg" alt="Mie Instant Single">
+    <h3>Cappuccino</h3>
+    <p>Kopi susu dengan busa lembut, pas buat rileks.</p>
+    <p class="price">Rp 15.000</p>
+  </div>
+  <div class="menu-item minuman">
+    <img src="assets/Kopi Susu Gula Aren.jpg" alt="Mie Instant Single">
+    <h3>Kopi Susu Gula Aren</h3>
+    <p>Kopi susu dengan tambahan gula aren yang manis legit.</p>
+    <p class="price">Rp 15.000</p>
+  </div>
+  <div class="menu-item minuman">
+    <img src="assets/matcha.jpg" alt="Mie Spaghetti">
+    <h3>Matcha Latte</h3>
+    <p>Minuman latte dengan rasa khas matcha yang creamy dan nikmat.</p>
+    <p class="price">15.000</p>
+  </div>
+  <div class="menu-item minuman">
+    <img src="assets/Kopi Tubruk.jpeg" alt="Mie Instant Single">
+    <h3>Kopi Tubruk</h3>
+    <p>Kopi tradisional khas Indonesia, rasa otentik.</p>
+    <p class="price">Rp 15.000</p>
+  </div>
+  <div class="menu-item makanan">
+    <img src="assets/Telor Mata Sapi.jpeg" alt="Mie Spaghetti">
+    <h3>Telor Mata Sapi</h3>
+    <p>Telor dengan kuning setengah matang dan putih telur lembut</p>
+    <p class="price">Rp 5.000</p>
+  </div>
+  <div class="menu-item makanan">
+    <img src="assets/Telor Dadar.jpeg" alt="Mie Spaghetti">
+    <h3>Telor Dadar</h3>
+    <p> Telor dadar empuk dengan bumbu sederhana.</p>
+    <p class="price">Rp 5.000</p>
+  </div>
+  <div class="menu-item makanan">
+    <img src="assets/Telor Ayam Kampung.jpeg" alt="Mie Spaghetti">
+    <h3>telor Ayam Kampung</h3>
+    <p>Telor ayam kampung yang lebih gurih dan kaya rasa.</p>
+    <p class="price">Rp 7.000</p>
+  </div>
+  <div class="menu-item makanan">
+    <img src="assets/Telor Asin.jpeg" alt="Mie Spaghetti">
+    <h3>Telor Asin</h3>
+    <p>Telor asin dengan rasa gurih khas.</p>
+    <p class="price">Rp 7.000</p>
+  </div>
+  <div class="menu-item cemilan">
+    <img src="assets/Roti Goreng Crispy.jpeg" alt="Mie Spaghetti">
+    <h3>Roti Goreng Crispy</h3>
+    <p>Roti goreng renyah dengan rasa gurih.</p>
+    <p class="price">Rp 15.000</p>
+  </div>
+  <div class="menu-item cemilan">
+    <img src="assets/Roti Bakar Personal.jpg" alt="Mie Spaghetti">
+    <h3>Roti Bakar Personal </h3>
+    <p>Roti bakar lembut dengan isian pilihan.</p>
+    <p class="price">Rp 10.000</p>
+  </div>
+  <div class="menu-item cemilan">
+    <img src="assets/Roti Canai Maryam.jpeg" alt="Mie Spaghetti">
+    <h3>Roti Canai Maryam</h3>
+    <p>Telor asin dengan rasa gurih khas.</p>
+    <p class="price">Rp 10.000</p>
+  </div>
+  <div class="menu-item cemilan">
+    <img src="assets/Donut Susu.jpeg" alt="Mie Spaghetti">
+    <h3>Donut Susu</h3>
+    <p>Donut susu yang lembut dan nikmat.</p>
+    <p class="price">Rp 10.000</p>
+  </div>  
+  <div class="menu-item makanan">
+    <img src="assets/Seblak Jadoel.jpg" alt="Mie Spaghetti">
+    <h3>Seblak Jadoel</h3>
+    <p>Seblak klasik dengan kerupuk dan bumbu pedas.</p>
+    <p class="price">Rp 10.000</p>
+  </div>
+  <div class="menu-item makanan">
+    <img src="assets/Seblak Mix Match.jpg" alt="Mie Spaghetti">
+    <h3>Seblak Instant Mix</h3>
+    <p>Seblak instant dengan rasa pedas dan nikmat.</p>
+    <p class="price">Rp 15.000</p>
+  </div>
+  <div class="menu-item makanan">
+    <img src="assets/seblaka.jpeg" alt="Mie Spaghetti">
+    <h3>Seblak Mix & Match</h3>
+    <p> Seblak dengan pilihan bahan sesuai selera.</p>
+    <p class="price">Rp 20.000</p>
+  </div>
+  <div class="menu-item makanan">
+    <img src="assets/Seblak Mukbang.jpg" alt="Mie Spaghetti">
+    <h3>Seblak Mukbang</h3>
+    <p>Seblak pedas dengan porsi besar, cocok untuk mukbang.</p>
+    <p class="price">Rp 25.000</p>
+  </div>
+
+  <div class="menu-item makanan">
+    <img src="assets/Nasi Goreng Bangladesh Watados.jpeg" alt="Mie Spaghetti">
+    <h3>Nasi Goreng Bangladesh Watados</h3>
+    <p> Nasi goreng khas Bangladesh dengan bumbu khas Watados yang nikmat.</p>
+    <p class="price">Rp 15.000</p>
+  </div>
+  <div class="menu-item makanan">
+    <img src="assets/Nasi Telor Rakyat Jelata.jpeg" alt="Mie Spaghetti">
+    <h3>Nasi Telor Rakyat Jelata </h3>
+    <p>Nasi dengan telur mata sapi, dadar big size, atau orak-arik sesuai pilihan.</p>
+    <p class="price">Rp 15.000</p>
+  </div>
+  <div class="menu-item makanan">
+    <img src="assets/Nasia.jpeg" alt="Mie Spaghetti">
+    <h3>Nasi Goreng Bangladesh Reguler (Nasi Bumbu Bangladesh + Telur + Sayur)</h3>
+    <p> Nasi goreng dengan bumbu khas Bangladesh, telur, dan sayur.</p>
+    <p class="price">Rp 20.000</p>
+  </div>
+  <div class="menu-item makanan">
+    <img src="assets/Nasi Goreng Bangladesh Special.jpeg" alt="Mie Spaghetti">
+    <h3>Nasi Goreng Bangladesh Special (Nasi Bumbu Bangladesh + Telur + Sayur + (Sosis/Baso/Nuget))</h3>
+    <p>Nasi goreng spesial dengan bumbu khas Bangladesh, telur, sayur, dan pilihan topping (sosis, baso, atau nugget).</p>
+    <p class="price">Rp 25.000</p>
+  </div>
+
+  <div class="menu-item cemilan">
+    <img src="assets/Tahu Sumedang.jpeg" alt="Mie Spaghetti">
+    <h3>Tahu Sumedang</h3>
+    <p>Tahu goreng khas Sumedang yang renyah di luar, lembut di dalam.</p>
+    <p class="price">Rp 10.000</p>
+  </div>
+  <div class="menu-item cemilan">
+    <img src="assets/Tahu Bulat.jpeg" alt="Mie Spaghetti">
+    <h3>Tahu Bulat</h3>
+    <p>Tahu bulat goreng yang empuk dan gurih.</p>
+    <p class="price">Rp 10.000</p>
+  </div>  
+  <div class="menu-item cemilan">
+    <img src="assets/Kentang Goreng Premium.jpg" alt="Mie Spaghetti">
+    <h3>Kentang Goreng Premium</h3>
+    <p>Kentang goreng renyah dan gurih dengan ukuran besar.</p>
+    <p class="price">Rp 15.000</p>
+  </div>
+  <div class="menu-item cemilan">
+    <img src="assets/Sosis Sapi Bakar King Size.png" alt="Mie Spaghetti">
+    <h3>Sosis Sapi Bakar King Size</h3>
+    <p>Sosis sapi bakar dengan ukuran besar dan rasa yang lezat.</p>
+    <p class="price">Rp 10.000</p>
+  </div>
+  <div class="menu-item cemilan">
+    <img src="assets/Sosis Sapi Bakar.jpeg" alt="Mie Spaghetti">
+    <h3>Sosis Sapi Frankfurter</h3>
+    <p>Sosis sapi jenis Frankfurter yang kenyal dan nikmat.</p>
+    <p class="price">Rp 10.000</p>
+  </div>
+  <div class="menu-item cemilan">
+    <img src="assets/Nugget Ayam Oval King Size.jpg" alt="Mie Spaghetti">
+    <h3>Nugget Ayam Oval King Size</h3>
+    <p>Nugget ayam ukuran besar dengan rasa gurih.</p>
+    <p class="price">Rp 15.000</p>
+  </div>
+
+
+
+    <!-- Tambahkan item menu lainnya -->
+  </div>
+
+  <footer class="footer">
+    <div class="social-media">
+      <a href="#" class="social-icon">Facebook</a>
+      <a href="#" class="social-icon">Instagram</a>
+      <a href="#" class="social-icon">TikTok</a>
+    </div>
+    <p>&copy; 2024 Warkop Modern</p>
+  </footer>
+
+  <script>
+    // Show the modal when the page loads
+    window.onload = () => {
+      const modal = document.getElementById('welcomeModal');
+      modal.classList.add('show');  // Show the modal by adding the 'show' class
+
+      // Close the modal when the close button is clicked
+      const closeButton = document.getElementById('closeModal');
+      closeButton.addEventListener('click', () => {
+        modal.classList.remove('show');  // Hide the modal
+      });
+    };
+
+    // Filter menu items based on category selection
+    const categoryButtons = document.querySelectorAll('.category-btn');
+    const menuItems = document.querySelectorAll('.menu-item');
+
+    categoryButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const category = button.getAttribute('data-category');
+
+        if (category === 'all') {
+          menuItems.forEach(item => item.style.display = 'block');
+        } else {
+          menuItems.forEach(item => {
+            item.classList.contains(category) ? item.style.display = 'block' : item.style.display = 'none';
+          });
+        }
+
+        categoryButtons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
